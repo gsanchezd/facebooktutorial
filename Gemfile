@@ -38,3 +38,14 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'bundler'
+
+gem 'devise', github: 'plataformatec/devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'validates_formatting_of'
+gem 'tzinfo-data'
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
